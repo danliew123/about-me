@@ -1,0 +1,121 @@
+body {
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 400px;
+    padding: 32px;
+    background-color: bisque;
+}
+
+.logo{
+    font-size: 24px;
+    text-wrap: nowrap;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin: 16px;
+}
+
+.whoami {
+    max-width: 400px;
+}
+
+.head-cards {
+    background-color: bisque;
+}
+
+h2 {
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.square-img img {
+    height: 160px;
+    width: auto;
+}
+
+.quote {
+    background-color: rgb(233, 230, 230);
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.quotation {
+    font-size: 48px;
+    font-weight: 1400;
+    margin: 8px;
+    text-align: left;
+}
+
+.author {
+    text-align: end;
+    font-size: 24px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.call-me {
+    background-color: rgb(102, 102, 233);
+    padding: 16px;
+    border-radius: 16px;
+    display: flex;
+    gap: 16px;
+}
+
+.content {
+    color: aliceblue;
+}
+
+.contact-button {
+    background-color: #9d8bdb; /* Green */
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 16px;
+    
+}
+
+.footer {
+    text-align: center;
+    background-color: rgba(213, 218, 223, 0.603);
+    padding: 16px;
+}
